@@ -9,44 +9,12 @@
 
 
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  
     <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
 </div>
 
 
@@ -69,8 +37,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -82,18 +48,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+Glass fragments are one of the most frequently used items in forensic science.
+In most of the crime scenes such as house-breaking, even small fragments of the glass attached to the clothes of a suspect would solve the problem.
+Using elemental composition and refractive index, we can tell where the glass comes from, even from small glass fragments.
+Is it from a house window? car windshield? Bottle? 
+Making a robust ML model with a good size of data will provide a good tool to solve such problems.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -101,16 +60,10 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Scikit-learn](https://scikit-learn.org/)
+* [tensorflow](https://www.tensorflow.org/)
+* [imblearn](https://imbalanced-learn.org/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -119,34 +72,59 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Here's how to get started with the project.
 
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* sklearn
   ```sh
-  npm install npm@latest -g
+  pip install sklearn
   ```
+* Tensorflow
+  ```sh
+  pip install tensorflow
+  ```  
+* imblearn
+  ```sh
+  pip install imblearn
+  ```  
+* pandas
+  ```sh
+  pip install pandas
+  ```    
+* numpy
+  ```sh
+  pip install numpy
+  ```    
+* matplotlib
+  ```sh
+  pip install matplotlib
+  ```   
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/senay-dev/Glass-Identification.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+2. Folder Structure: --
+                      |----Model Building
+                      |--------Project_script.ipynb
+                      |--------Project_script.py
+                      |----Make Predictions
+                      |--------run.py
+                      |--------ANN.h5
+                      |--------...(other saved models)
+                      |----Presentation.pptx
+                      |----README.md
+3. On Model Building Folder, you can run the same code that was used to build all models with techniques such as SMOTE oversampling and hyperparameter tuning.
+   To run project_script.py:
+        ```sh
+         python Project_script.py
+        ```
+   NOTE: runing Project_script.py will take time, to view the results right away (including the plots), please open Project_script.ipynb.
+4. On Make Predictions folder, you can make predictions on one sample by giving it the single data or you can make it make predictions on a portion of the file called glass.data. Details are <a href="#usage">here</a>.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -155,46 +133,22 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+In Make Predictions Folder,
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+* To make predictions:
+```sh
+   python run.py
+```
+It will ask you an input, and you can provide one. Try this: 1.52211,14.19,3.78,0.91,71.36,0.23,9.14,0.00,0.37
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+* To make prediction on portion of glass dataset
+```sh
+   python run.py 
+```
+It will ask you for an input, type in `f [portion_size]`. for example `f 0.3`. And the code will sample data and provide accuracy score.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
@@ -210,9 +164,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Your Name - [@your_twitter](https://twitter.com/senayfre45) - senayfre0@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/senay-dev/Glass-Identification](https://github.com/senay-dev/Glass-Identification)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -221,16 +175,16 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Dataset: https://archive.ics.uci.edu/ml/datasets/Glass+Identification
+Logistic Regression: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
+SVM: https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
+KNN: https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html
+Decision Tree Classifier: https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html
+Random Forest Classifier: https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/
+https://amirhessam88.github.io/glass-identification/
+![image](https://user-images.githubusercontent.com/56095146/144562172-e81e81e1-5bd4-4e3c-8a20-4b28b993ff90.png)
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
