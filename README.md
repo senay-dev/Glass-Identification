@@ -154,7 +154,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/senayfre45) - senayfre0@gmail.com
+Senay Tesfamichael - [Twitter](https://twitter.com/senayfre45) - senayfre0@gmail.com
 
 Project Link: [https://github.com/senay-dev/Glass-Identification](https://github.com/senay-dev/Glass-Identification)
 
@@ -165,11 +165,11 @@ Project Link: [https://github.com/senay-dev/Glass-Identification](https://github
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 Dataset: https://archive.ics.uci.edu/ml/datasets/Glass+Identification <br />
-Logistic Regression: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html <br />
+Logistic Regression: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html <br />
 SVM: https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html <br />
-KNN: https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html <br />
-Decision Tree Classifier: https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html <br />
-Random Forest Classifier: https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html <br />
+KNN: https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html <br />
+Decision Tree Classifier: https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html <br />
+Random Forest Classifier: https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html <br />
 https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/ <br />
 https://amirhessam88.github.io/glass-identification/ <br />
 <p align="right">(<a href="#top">back to top</a>)</p>
