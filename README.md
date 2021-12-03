@@ -108,16 +108,16 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    git clone https://github.com/senay-dev/Glass-Identification.git
    ```
-2. Folder Structure: --
-                      |----Model Building
-                      |--------Project_script.ipynb
-                      |--------Project_script.py
-                      |----Make Predictions
-                      |--------run.py
-                      |--------ANN.h5
-                      |--------...(other saved models)
-                      |----Presentation.pptx
-                      |----README.md
+2. Folder Structure: --<br />
+                      |----Model Building<br />
+                      |--------Project_script.ipynb<br />
+                      |--------Project_script.py<br />
+                      |----Make Predictions<br />
+                      |--------run.py<br />
+                      |--------ANN.h5<br />
+                      |--------...(other saved models)<br />
+                      |----Presentation.pptx<br />
+                      |----README.md<br />
 3. On Model Building Folder, you can run the same code that was used to build all models with techniques such as SMOTE oversampling and hyperparameter tuning.
    To run project_script.py:
         ```sh
@@ -174,7 +174,6 @@ Project Link: [https://github.com/senay-dev/Glass-Identification](https://github
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-
 Dataset: https://archive.ics.uci.edu/ml/datasets/Glass+Identification
 Logistic Regression: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
 SVM: https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
@@ -183,9 +182,6 @@ Decision Tree Classifier: https://scikit-learn.org/stable/modules/generated/skl
 Random Forest Classifier: https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
 https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/
 https://amirhessam88.github.io/glass-identification/
-![image](https://user-images.githubusercontent.com/56095146/144562172-e81e81e1-5bd4-4e3c-8a20-4b28b993ff90.png)
-
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
