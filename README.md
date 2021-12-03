@@ -1,21 +1,11 @@
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
+
 
 
 
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
-  
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-</div>
 
 
 
@@ -174,14 +164,14 @@ Project Link: [https://github.com/senay-dev/Glass-Identification](https://github
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-Dataset: https://archive.ics.uci.edu/ml/datasets/Glass+Identification
-Logistic Regression: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
-SVM: https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
-KNN: https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html
-Decision Tree Classifier: https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html
-Random Forest Classifier: https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
-https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/
-https://amirhessam88.github.io/glass-identification/
+Dataset: https://archive.ics.uci.edu/ml/datasets/Glass+Identification <br />
+Logistic Regression: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html <br />
+SVM: https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html <br />
+KNN: https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html <br />
+Decision Tree Classifier: https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html <br />
+Random Forest Classifier: https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html <br />
+https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/ <br />
+https://amirhessam88.github.io/glass-identification/ <br />
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
