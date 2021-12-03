@@ -18,6 +18,7 @@ from sklearn.ensemble import RandomForestClassifier
 from imblearn.over_sampling import SMOTE,SMOTENC
 from sklearn.metrics import accuracy_score,confusion_matrix
 from sklearn.model_selection import GridSearchCV
+from sklearn.preprocessing import OneHotEncoder
 import warnings
 warnings.filterwarnings('ignore')
 
